@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI, sans-serif; 
+	border-top: 8px solid #a292b3;
+	border-bottom: 8px solid #a292b3;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	height: 138px;
+	color: #82699d;
+}
+
+.container{
+max-width: 1020px;
+margin: 0 auto;
+font-family:s;
+}
+
+/**LOGO img**/
+.logo{
+margin-top: 32px;
+float: left;
+/*position: relative;
+top: 42px;*/
+}
+
+
+
+nav{
+	float: right;
+	margin-top: 65px;
+
+}
+	
+
+
+ /**MENU**/
+ @media(min-width:700px ){
+.menu{
+	position: relative;
+	top: -26px;
+	padding: 0;
+	display: block;
+	float: right;
+
+}}
+@media(max-width:699px ){
+.menu{
+	position: relative;
+	top: -26px;
+	padding: 0;
+	display: block;
+	float: right;
+
+}}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 70px;
+}
+.menu a{
+	color: #545454;
+	text-decoration: none;
+	font-size: 19px;
+
+	
+}
+
+/** BANNER **/
+.banner{
+	/*position: relative;
+	bottom: 86px;*/
+	margin-top: 71px;
+	float: left;
+	height: auto;
+	max-width: 100%;
+
+}
+
+/**QT**/
+.qt{
+	/*position: relative;
+	top: 60px;*/
+	margin-top: 620px;
+	font-size: 23px;
+	font-weight: italic;
+	color: #494848;
+	text-align: center;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+
+}
+.qt b{
+	font-size: 23px;
+	font-weight: bold italic;
+	color: #82699d;
+	text-align: center;
+}
+
+/**CONTENT**/
+.content{
+	margin: left;
+
+}
+.content img{
+	margin:32px;
+		position: relative;
+		top: -25px;
+}
+.content h2{
+	position: relative;
+	top: 46px;
+	font-size: 31px;
+	font-weight: bold;
+	color: #505051;
+	text-align: center;
+}
+.content p{
+	/*position: relative;
+	top: 119px;*/
+	margin-top: 69px;
+	line-height: 20px;
+	font-size: 15px;
+	font-weight: regular;
+	color: #838383;
+	text-align: left;
+}
+.group{
+	position: relative;
+	top: 77px;
+	margin-top: 300px;
+	float: right;
+}
+
+
+.clients{
+	margin-top: 20px;
+	max-width: 100%;
+}
+
+/**FOOTER**/
+footer{
+	margin-top: 60px;
+}
+footer p{
+	margin-bottom: 30px;
+}
+.fb{
+	float:right;
+	margin-left: 20px;
+}
+.twit{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
